@@ -1,0 +1,220 @@
+.intro {
+    background: url("../assets/news/intro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project {
+    width: 85%;
+    height: 145px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.06));
+    margin: 2% auto;
+    padding: 2%;
+}
+
+.project h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #64558E;
+}
+
+.project h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #0A19CE;
+}
+
+.project p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    color: #848383;
+    padding: 1%;
+}
+
+.opportunities {
+    background: url("../assets/news/opportunities.jpg");
+    background-size: cover;
+    padding: 10%;
+}
+
+.opportunity {
+    width: 478px;
+    height: 79px;
+    filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.06));
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    margin-top: 8%;
+}
+
+.opportunity p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #64558E;
+    padding: 5% 8%;
+}
+
+.card h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #0A19CE;
+}
+
+.card button {
+    width: 101px;
+    height: 33px;
+    background: linear-gradient(178.89deg, #BF9AD4 0.95%, #407BFF 252.36%);
+    border-radius: 4px;
+    position: absolute;
+    bottom: 4%;
+    left: 32%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.check {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0A19CE;
+    margin: 0 40px;
+    padding: 0% 5%;
+}
+
+.opportunities .col-6 {
+    max-width: 100%;
+}
+
+.opportunities h3 {
+    text-align: left;
+}
+
+@media (max-width:1090px) {
+    .intro {
+        background-size: contain;
+    }
+}
+
+@media(max-width:575px) {
+    .project h1 {
+        font-size: 13px;
+    }
+    .project h2 {
+        font-size: 10px;
+    }
+    .project p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .check {
+        padding: 0;
+        font-size: 12px;
+    }
+    .opportunities {
+        padding-bottom: 35%!important;
+    }
+    .opportunity {
+        width: 280px;
+        height: 70px;
+        margin: 8% 0 0;
+    }
+    .opportunity p {
+        font-size: 15px;
+        padding: 7% 8%;
+    }
+    .item .card {
+        height: 345px;
+    }
+    .opportunities h3 {
+        text-align: center;
+    }
+}
+
+@media(min-width:576px) and (max-width:900px) {
+    .opportunity {
+        width: 330px;
+        height: 70px;
+    }
+    .opportunity p {
+        font-size: 15px;
+    }
+    .card .card-text {
+        line-height: 13px!important;
+    }
+    .card .card-title {
+        font-size: 18px!important;
+        line-height: 25px!important;
+    }
+    .card button {
+        left: 25%;
+    }
+}
+
+@media(min-width:901px) and (max-width:1090px) {
+    .item .card {
+        width: 295px;
+    }
+    .intro h1 {
+        font-size: 58px;
+    }
+    .card .card-text {
+        line-height: 10px!important;
+    }
+    .card .card-title {
+        font-size: 18px!important;
+        line-height: 25px!important;
+    }
+}
+
+@media(max-width:325px) {
+    .project h1 {
+        line-height: 15px;
+        font-size: 10px;
+    }
+    .project p {
+        line-height: 12px;
+    }
+    .opportunity {
+        width: 250px;
+        margin: 8% -2% 0;
+    }
+    .opportunity p {
+        line-height: 15px;
+    }
+}
+
+@media(min-width:376px) {
+    .opportunity {
+        margin: 8% 5% 0;
+    }
+}

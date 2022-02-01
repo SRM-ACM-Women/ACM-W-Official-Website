@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+body {
+    background: #F5F4FB;
+    margin: 0;
+}
+
+.bg-light {
+    background-color: rgba(0, 0, 0, 0.0)!important;
+}
+
+.nav-link {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #969696;
+}
+
+.active>.nav-link {
+    color: #0A19CE!important;
+}
+
+.gradient {
+    background: linear-gradient(178.89deg, #BF9AD4 0.95%, #407BFF 252.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.purple {
+    color: #9772D2;
+}
+
+footer {
+    margin-top: -5%;
+}
+
+footer h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    font-variant: small-caps;
+    color: #0A19CE;
+}
+
+footer p {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #969696;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.owl-prev {
+    left: 1%;
+    color: #000 !important;
+    font-size: 35px!important;
+}
+
+.owl-next {
+    right: 1%;
+    color: #000 !important;
+    font-size: 35px!important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    width: 20px;
+    background-color: #CCCBCB!important;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    border-radius: 50%;
+    background-color: #CCCBCB!important;
+    border-top: none;
+    border-bottom: none;
+}
+
+.carousel-indicators .active {
+    width: 20px;
+    border-radius: 38%;
+}
+
+.carousel-control-next-icon {
+    background: url("/assets/right.png");
+    transform: rotateY(-180deg);
+    position: absolute;
+    right: -2%;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 30%;
+    background: url("/assets/right.png");
+}
+
+@media(max-width:1000px) {
+    .bg-light {
+        background: url("/assets/nav.png")!important;
+    }
+}
+
+@media(max-width:575px) {
+    footer {
+        margin-top: -15%;
+    }
+}
