@@ -2,7 +2,7 @@
   background: url("../assets/home/intro.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15% 10%;
+  padding: 16% 10%;
   margin-top: -5%;
 }
 
@@ -43,6 +43,8 @@
   font-size: 35px;
   line-height: 52px;
   color: #0a19ce;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
 }
 
 .owl-carousel {
@@ -79,11 +81,11 @@
   color: #848383;
 }
 
-.web {
+.adv {
   width: 389px;
   height: 79px;
-  left: 83.8px;
-  top: 99px;
+  left: -3px;
+  top: 7px;
   background: linear-gradient(
     180deg,
     rgba(144, 142, 224, 0.4) 0%,
@@ -92,6 +94,10 @@
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin: 10% auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .cyber {
@@ -99,28 +105,36 @@
   height: 79px;
   background: linear-gradient(
     180deg,
-    rgba(242, 180, 225, 0.4) 0%,
-    rgba(233, 151, 193, 0.4) 100%
+    rgb(240 207 228 / 69%) 0%, 
+    rgb(242 217 235) 100%
   );
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin: 10% auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.human {
+.app {
   width: 389px;
   height: 79px;
   background: linear-gradient(
     180deg,
-    rgba(142, 199, 224, 0.4) 0%,
+    rgba(142, 199, 224, 0.4) 0%, 
     rgba(135, 196, 216, 0.4) 100%
   );
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin: 10% auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.ml {
+.sci {
   width: 389px;
   height: 79px;
   background: linear-gradient(
@@ -131,17 +145,133 @@
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin: 10% auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.domain .col-6 .web,
+.web {
+  width: 389px;
+  height: 79px;
+  left: -3px;
+  top: 7px;
+  background: linear-gradient(
+    180deg,
+    rgb(158 204 189 / 54%) 0%, 
+    rgb(197 225 218) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin: 10% auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  width: 389px;
+  height: 79px;
+  left: -3px;
+  top: 7px;
+  background: linear-gradient(
+    180deg,
+    rgb(238 232 207) 0%, rgb(240 234 210) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin: 10% auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quant {
+  width: 389px;
+  height: 79px;
+  left: -3px;
+  top: 7px;
+  background: linear-gradient(
+    180deg,
+    rgb(174 199 233) 0%, rgb(190 214 244) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin: 10% auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.creat {
+  width: 389px;
+  height: 79px;
+  left: -3px;
+  top: 7px;
+  background: linear-gradient( 180deg, 
+  rgb(224 189 237) 0%, 
+  rgb(214 168 232 / 62%) 100% );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin: 10% auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.math {
+  width: 389px;
+  height: 79px;
+  left: -3px;
+  top: 7px;
+  background: linear-gradient( 180deg, 
+  rgb(224 166 202 / 52%) 0%, 
+  rgb(232 197 221) 100% );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin: 10% auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.corp {
+  width: 389px;
+  height: 79px;
+  left: -3px;
+  top: 7px;
+  background: linear-gradient( 180deg, 
+  rgb(162 204 221 / 58%) 0%, 
+  rgb(206 225 236) );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin: 10% auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.domain .col-6 .adv,
 .domain .col-6 .cyber,
-.domain .col-6 .human,
-.domain .col-6 .ml {
+.domain .col-6 .app,
+.domain .col-6 .sci
+.domain .col-6 .web,
+.domain .col-6 .block,
+.domain .col-6 .quant,
+.domain .col-6 .creat,
+.domain .col-6 .math,
+.domain .col-6 .corp {
   margin: 5% auto;
   padding-top: 3%;
 }
 
-.web p {
+.adv p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -161,17 +291,17 @@
   color: #ad3454;
 }
 
-.human p {
+.app p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
-  color: #64558e;
+  color: #1b86c2;
 }
 
-.ml p {
+.sci p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -179,6 +309,66 @@
   line-height: 30px;
   text-align: center;
   color: #894713;
+}
+
+.web p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #337a97;
+}
+
+.block p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #b66f2d;
+}
+
+.quant p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #294fb2;
+}
+
+.creat p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color:#6f5a9e;
+}
+
+.math p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #98477f;
+}
+
+.corp p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #026292;
 }
 
 .box {
@@ -218,7 +408,7 @@
   background: url("../assets/home/contact.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 4% 6%;
+  padding: 0% 6% 8% 6%;
 }
 
 .owl-carousel {
@@ -309,17 +499,29 @@
   .three {
     right: 5%;
   }
-  .web,
+  .adv,
   .cyber,
-  .human,
-  .ml {
+  .app,
+  .sci
+  .web,
+  .block,
+  .quant,
+  .creat,
+  .math,
+  .corp {
     width: 280px;
     height: 60px;
   }
-  .web p,
+  .adv p,
   .cyber p,
-  .human p,
-  .ml p {
+  .app p,
+  .sci p
+  .web p,
+  .block p,
+  .quant p,
+  .creat p,
+  .math p,
+  .corp p {
     font-size: 15px;
     padding-top: 5%;
   }
@@ -350,17 +552,29 @@
 }
 
 @media (min-width: 576px) and (max-width: 900px) {
-  .web,
-  .cyber,
-  .human,
-  .ml {
+  .adv p,
+  .cyber p,
+  .app p,
+  .sci p
+  .web p,
+  .block p,
+  .quant p,
+  .creat p,
+  .math p,
+  .corp p {
     width: 280px;
     height: 60px;
   }
-  .web p,
+  .adv p,
   .cyber p,
-  .human p,
-  .ml p {
+  .app p,
+  .sci p
+  .web p,
+  .block p,
+  .quant p,
+  .creat p,
+  .math p,
+  .corp p {
     font-size: 15px;
     padding-top: 5%;
   }
@@ -405,3 +619,4 @@
     line-height: 11px;
   }
 }
+
