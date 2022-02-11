@@ -84,8 +84,6 @@
 .adv {
   width: 389px;
   height: 79px;
-  left: -3px;
-  top: 7px;
   background: linear-gradient(
     180deg,
     rgba(144, 142, 224, 0.4) 0%,
@@ -268,7 +266,8 @@
 .domain .col-6 .adv,
 .domain .col-6 .cyber,
 .domain .col-6 .app,
-.domain .col-6 .sci .domain .col-6 .web,
+.domain .col-6 .sci ,
+.domain .col-6 .web,
 .domain .col-6 .block,
 .domain .col-6 .quant,
 .domain .col-6 .creat,
@@ -509,7 +508,8 @@
   .adv,
   .cyber,
   .app,
-  .sci .web,
+  .sci ,
+  .web,
   .block,
   .quant,
   .creat,
@@ -521,7 +521,8 @@
   .adv p,
   .cyber p,
   .app p,
-  .sci p .web p,
+  .sci p ,
+  .web p,
   .block p,
   .quant p,
   .creat p,
@@ -560,7 +561,8 @@
   .adv p,
   .cyber p,
   .app p,
-  .sci p .web p,
+  .sci p ,
+  .web p,
   .block p,
   .quant p,
   .creat p,
@@ -572,7 +574,8 @@
   .adv p,
   .cyber p,
   .app p,
-  .sci p .web p,
+  .sci p,
+  .web p,
   .block p,
   .quant p,
   .creat p,
