@@ -208,24 +208,32 @@ iframe {
     }
 }
 
-@media only screen ,(min-width:320px) {
+
+.wdwd {
+    margin-top: 1%;
+}
+
 .newlogo img {
     position: relative;
-    width: 220px;
-    left: 65px;
-    top: 145px;
+    width: 50%;
+    height: 30%;
+    left: 24%;
+    margin-top: 2%;
+    right: 10%;
 }
+
 .newlogo2 img {
-    width: 125px;
     position: relative;
-    left: 192px;
-    bottom: 104px;   
+    width:30%;
+    margin-top: -28%;
+    right: 5%;
 }
+
 .newlogo3 img {
-    width: 125px;
-    left: 50px;
     position: relative;
-    bottom: 230px;
-    }
+    width: 30%;
+    left: 74%;
+    margin-top: -30%;
 }
-    
+
+
