@@ -1,178 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/acm.png" rel="icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/acm.png" rel="icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/events.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/events.css" />
     <title>Events</title>
-</head>
+  </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="events.html">Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="team.html">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="news.html">Resources</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="join.html">Join Us</a>
-                </li>
-            </ul>
-        </div>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="join.html">Join Us</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <div class="container-fluid">
-        <div class="row intro">
-            <div class="col-lg-6">
+      <div class="row intro">
+        <div class="col-lg-6"></div>
+      </div>
+      <br />
+      <h3 class="wdwd text-center">Our Latest Events</h3>
+      <br /><br />
+      <div class="row events">
+        <div class="col-12">
+          <img src="./assets/events/one.png" class="one" />
+          <img src="./assets/events/two.png" class="two" />
+          <div class="owl-carousel owl-theme">
+            <div class="item d-flex justify-content-around">
+              <div>
+                <img src="./assets/events/cybersec.jpg" />
+              </div>
+              <div class="desc">
+                <h1>
+                  Online Short Term Training Program on Smarter Cyber Security
+                </h1>
+                <p>
+                  A six-days workshop of hands-on experience with experts from
+                  the industry themselves on "Online Short Term Training Program
+                  on Smarter Cyber Security" was conducted from 13th -18th
+                  September 2021. The session covered topics such as Basic
+                  Foundation on ML, Cyber Security attacks, Network Security,
+                  Real time attack scenarios and Web Forensics.
+                </p>
+              </div>
             </div>
+            <div class="item d-flex justify-content-around">
+              <div>
+                <img src="./assets/events/placementtalk.jpg" />
+              </div>
+              <div class="desc">
+                <h1>Evening of Experience</h1>
+                <p>
+                  ACM-W SRM in collaboration with Institution’s Innovation
+                  Council, School of Computing and NWC held a placement talk on
+                  “Evening of Experience” on the 9th of December. Fourth year
+                  SRM students who got placed in companies like Amazon and Optum
+                  shared their experiences and strategies related to campus
+                  placements with the attendees.
+                </p>
+              </div>
+            </div>
+            <div class="item d-flex justify-content-around">
+              <div>
+                <img src="./assets/events/mlworkshop.jpg" />
+              </div>
+              <div class="desc">
+                <h1>Introduction to Classification in Machine Learning</h1>
+                <p>
+                  An online workshop was conducted by members of ACM-W SRM on
+                  10-11th of July 2021. The workshop covered the concept of
+                  Classification in Machine Learning with various Classification
+                  Algorithms while focusing on Convolutional Neural Networks and
+                  a Hands on session classifying 6 different types of pokemons.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <h3 class="wdwd text-center">Our Latest Events</h3>
-        <div class="row events">
-            <div class="col-12">
-                
-                <img src="./assets/events/one.png" class="one">
-                <img src="./assets/events/two.png" class="two">
-                <div class="owl-carousel owl-theme">
-                    <div class="item d-flex justify-content-around">
-                        <div>
-                            <img src="./assets/events/cybersec.jpg">
-                        </div>
-                        <div class="desc">
-                            <h1>
-                                Online Short Term Training Program on Smarter Cyber Security
-                            </h1>
-                            <p>
-                                A six-days workshop of hands-on experience with experts from the industry themselves on "Online Short Term Training Program on Smarter Cyber Security" was conducted from 13th -18th September 2021. The session covered topics such as Basic Foundation on ML, Cyber Security attacks, Network Security, Real time attack scenarios and Web Forensics.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item d-flex justify-content-around">
-                        <div>
-                            <img src="./assets/events/placementtalk.jpg">
-                        </div>
-                        <div class="desc">
-                            <h1>
-                                Evening of Experience
-                            </h1>
-                            <p>
-                                ACM-W SRM in collaboration with Institution’s Innovation Council, School of Computing and NWC held a placement talk on “Evening of Experience” on the 9th of December. Fourth year SRM students who got placed in companies like Amazon and Optum shared their experiences and strategies related to campus placements with the attendees.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item d-flex justify-content-around">
-                        <div>
-                            <img src="./assets/events/mlworkshop.jpg">
-                        </div>
-                        <div class="desc">
-                            <h1>Introduction to Classification in Machine Learning
-                            </h1>
-                            <p>
-                                An online workshop was conducted by members of ACM-W SRM on 10-11th of July 2021. The workshop covered the concept of Classification in Machine Learning with various Classification Algorithms while focusing on Convolutional Neural Networks and a Hands on session classifying 6 different types of pokemons.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <h3 class="text-center wdwd">Want to collaborate with us?</h3>
+      <div class="row collab">
+        <div class="col-lg-6 col-md-6 col-sm-12" style="padding: 5% 8%">
+          <p>
+            We welcome other ACM chapters, college associations, NGO’s, etc to
+            hold global events with us! Some of our collaborations are:
+          </p>
+          <div class="d-flex justify-content-start logo">
+            <div><img src="./assets/events/acm_logo_tablet 1.png" /></div>
+            <div><img src="./assets/events/logo-girlsxtech 2.png" /></div>
+          </div>
+          <div class="d-flex justify-content-start newlogo">
+            <img src="./assets/events/IIClogo.png" />
+          </div>
+          <div class="d-flex justify-content-start newlogo2">
+            <img src="./assets/events/SRMcomputing.jpg" />
+          </div>
+          <div class="d-flex justify-content-start newlogo3">
+            <img src="./assets/events/NWClogo.jpg" />
+          </div>
         </div>
-        <h3 class="text-center wdwd">Want to collaborate with us?</h3>
-        <div class="row collab">
-            <div class="col-lg-6 col-md-6 col-sm-12" style="padding:5% 8%;">
-                <p>We welcome other ACM chapters, college associations, NGO’s, etc to hold global events with us! Some of our collaborations are:</p>
-                <div class="d-flex justify-content-start logo">
-                    <div><img src="./assets/events/acm_logo_tablet 1.png"></div>
-                    <div><img src="./assets/events/logo-girlsxtech 2.png"></div>
-                    </div>
-                    <div class="d-flex justify-content-start newlogo">
-                    <img src="./assets/events/IIClogo.png">
-                    </div>
-                    <div class="d-flex justify-content-start newlogo2">
-                    <img src="./assets/events/SRMcomputing.jpg"></div>
-                    <div class="d-flex justify-content-start newlogo3">
-                    <img src="./assets/events/NWClogo.jpg"></div>
+        <div class="col-lg-6 col-md-6 col-sm-12" style="padding: 5%">
+          <h4>Have an event idea?</h4>
+          <h5>Fill this form and we will reach out to you!</h5>
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Your Association’s name"
+              />
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12" style="padding:5%;">
-                <h4>Have an event idea?</h4>
-                <h5>
-                    Fill this form and we will reach out to you!</h5>
-                <form>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Association’s name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Event Idea in 50 words">
-                    </div>
-                </form>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Event Idea in 50 words"
+              />
+            </div>
+          </form>
 
-                <button class="btn btn-primary">Send</button>
-            </div>
+          <button class="btn btn-primary">Send</button>
         </div>
-        <h3 class="text-center wdwd">Our Google Calender</h3>
-        <div class="row cal text-center">
-            <iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FKolkata&amp;src=YWNtd3NybUBnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=0&amp;showTitle=0"
-                style="border-width:0" frameborder="0" scrolling="no"></iframe>
-
-        </div>
-
+      </div>
+      <h3 class="text-center wdwd">Our Google Calender</h3>
+      <div class="row cal text-center">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FKolkata&amp;src=YWNtd3NybUBnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=0&amp;showTitle=0"
+          style="border-width: 0"
+          frameborder="0"
+          scrolling="no"
+        ></iframe>
+      </div>
     </div>
 
     <footer>
-        <h4 class="text-center">Copyright acm-w srm</h4>
-        <p class="text-center">All rights reserved</p>
+      <h4 class="text-center">Copyright acm-w srm</h4>
+      <p class="text-center">All rights reserved</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js " integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin=" anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js " integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin=" anonymous "></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin=" anonymous "
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin=" anonymous "
+    ></script>
     <script>
-        $('.owl-carousel').owlCarousel({
-            loop: false,
-            margin: 20,
-            autoplay: true,
-            autoplayTimeout: 4000,
-            dots: true,
-            nav: true,
-            autoplayHoverPause: true,
-            slideBy: 1,
-            dotsEach: 1,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                900: {
-                    items: 1
-                }
-            }
-        })
+      $(".owl-carousel").owlCarousel({
+        loop: false,
+        margin: 20,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        dots: true,
+        nav: true,
+        autoplayHoverPause: true,
+        slideBy: 1,
+        dotsEach: 1,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          900: {
+            items: 1,
+          },
+        },
+      });
     </script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
