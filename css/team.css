@@ -43,6 +43,9 @@
     padding: 2% 5%;
 }
 
+.exec{
+    padding: 2% 5%;
+}
 .exec div,
 .members div {
     margin-top: 5%;
@@ -58,14 +61,16 @@
 
 .social {
     position: absolute;
-    bottom: -18%;
-    left: 42%;
+    bottom : -24%;
+    left:46%;
+    /* bottom: -18%;
+    left: 42%; */
 }
 
 .social img {
     padding: 0 15%;
     width: 25px;
-    height: 25px;
+    height: 20px;
     border-radius: 0;
     margin: 0;
 }
@@ -92,8 +97,8 @@
         height: 120px;
     }
     .social img {
-        width: 21px;
-        height: 21px;
+        width: 25px;
+        height: 20px;
     }
     .col-sm-6 {
         width: 50%;
