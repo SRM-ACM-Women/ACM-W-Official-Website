@@ -49,6 +49,7 @@ Built using:
 <td>Sinjini Sarkar</td>
 <td>Aastha Aggarwal</td>
 <td>Aayush Kumar</td>
+<td>Palveet Kaur Saluja</td>
 </tr>
 
 </table>
