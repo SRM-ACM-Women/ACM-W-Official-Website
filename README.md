@@ -25,9 +25,9 @@ Built using:
 ## Preview
 
 <div align="center">
-<a href="https://srm-acm-women.github.io/ACM-W-website/" target="_blank"> <img alt="home-page" src="assets/readme/homepage-ss.png" /> </a>
+<a href="https://srm-acm-women.github.io/ACM-W-website/" target="_blank"> <img alt="home-page" src="./assets/readme/homepage-ss.png" /> </a>
 <br> <br>
-<a href="https://srm-acm-women.github.io/ACM-W-website/news.html" target="_blank"> <img alt="resources-page" src="assets/readme/resources-ss.png" /></a>
+<a href="https://srm-acm-women.github.io/ACM-W-website/news.html" target="_blank"> <img alt="resources-page" src="./assets/readme/resources-ss.png" /></a>
 <br>
 <br>
 <br>
