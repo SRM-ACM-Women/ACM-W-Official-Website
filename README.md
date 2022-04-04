@@ -25,9 +25,9 @@ Built using:
 ## Preview
 
 <div align="center">
-<a href="https://srm-acm-women.github.io/ACM-W-website/" target="_blank"> <img alt="home-page" src="assets/homepage-ss.png" /> </a>
+<a href="https://srm-acm-women.github.io/ACM-W-website/" target="_blank"> <img alt="home-page" src="./assets/readme/homepage-ss.png" /> </a>
 <br> <br>
-<a href="https://srm-acm-women.github.io/ACM-W-website/news.html" target="_blank"> <img alt="resources-page" src="assets\resources-ss.png" /></a>
+<a href="https://srm-acm-women.github.io/ACM-W-website/news.html" target="_blank"> <img alt="resources-page" src="./assets/readme/resources-ss.png" /></a>
 <br>
 <br>
 <br>
@@ -36,20 +36,106 @@ Built using:
 ## Contributors
 
 <table>
+<tr align="center">
 
-<tr>
 <th>Team Leads</th>
-<td>Utkarsh Sinha</td>
-<td>Sanskriti Khare</td>
+
+<td>
+
+Utkarsh Sinha
+
+<p align="center">
+  <img src = "https://github.com/us8329.png?size=128"  height="120" alt="Utkarsh Sinha">
+</p>
+<p align="center">
+<a href = "https://github.com/us8329"><img src = "./assets/readme/github_icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/kg1510/">
+  <img src = "./assets/readme/linkedin_icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+<td>
+
+Sanskriti Khare
+
+<p align="center">
+<img src = "https://github.com/sanskritikhare142.png?size=128"  height="120" alt="Sanskriti Khare">
+</p>
+<p align="center">
+<a href = "https://github.com/sanskritikhare142"><img src = "./assets/readme/github_icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/sanskritikhare/">
+  <img src = "./assets/readme/linkedin_icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
 </tr>
 
-<tr>
+
+<tr align="center">
 <th>Other Members</th>
-<td>Mahi Prasad</td>
-<td>Sinjini Sarkar</td>
-<td>Aastha Aggarwal</td>
-<td>Aayush Kumar</td>
-<td>Palveet Kaur Saluja</td>
+
+<td>
+
+Mahi Prasad
+
+<p align="center">
+  <img src = "https://github.com/mahiprasad.png?size=128"  height="120" alt="Kushagra Gupta">
+</p>
+<p align="center">
+<a href = "https://github.com/mahiprasad"><img src = "./assets/readme/github_icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/mahi-prasad-7973211b6/">
+  <img src = "./assets/readme/linkedin_icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+<td>
+
+Sinjini Sarkar
+
+<p align="center">
+<img src = "https://github.com/sinjini05.png?size=128"  height="120" alt="Sanskriti Khare">
+</p>
+<p align="center">
+<a href = "https://github.com/sinjini05"><img src = "./assets/readme/github_icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/sinjini-sarkar-3a9887223/">
+  <img src = "./assets/readme/linkedin_icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+<td>
+
+Aastha Aggarwal
+
+<p align="center">
+<img src = "https://github.com/aastha170902.png?size=128"  height="120" alt="Nanda">
+</p>
+<p align="center">
+<a href = "https://github.com/aastha170902"><img src = "./assets/readme/github_icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/aastha-aggarwal-39b1121b8">
+  <img src = "./assets/readme/linkedin_icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+<td>
+
+Palveet Kaur Saluja
+
+<p align="center">
+<img src = "https://github.com/Palveet.png?size=128"  height="120" alt="Nanda">
+</p>
+<p align="center">
+<a href = "https://github.com/Palveet"><img src = "./assets/readme/github_icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/palveetks">
+  <img src = "./assets/readme/linkedin_icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
 </tr>
 
 </table>
