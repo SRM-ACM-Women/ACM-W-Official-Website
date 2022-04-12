@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/acm.png" height="100">
+<img src="assets/assets/ACMW logo new.png" height="100">
 </div>
 <h1 align="center"> ACM-W SRM </h1> 
 
