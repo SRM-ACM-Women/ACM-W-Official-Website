@@ -1,7 +1,7 @@
 <div align="center">
 <img src="assets/assets/ACMW logo new.png" height="100">
 </div>
-<h1 align="center"> ACM-W SRM </h1> 
+<h1 align="center"> ACM-W SRM Chapter</h1> 
 
 
 
